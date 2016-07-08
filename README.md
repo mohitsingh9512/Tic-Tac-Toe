@@ -13,12 +13,12 @@ Well, there really is but one rule! The player who succeeds in placing three of 
 
 ###Screenshots:
 ####Single Player: 
-![](extras/single-player.jpeg)
+<img src="extras/single-player.jpeg" width="200">
 
 ####Multi Player
-![](extras/multi-player.jpeg)
+<img src="extras/multi-player.jpeg" width="200">
 
-Made with :heart: 
+ 
  
 
  
