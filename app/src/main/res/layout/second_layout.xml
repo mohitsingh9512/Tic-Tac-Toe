@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="247dp"
+        android:id="@+id/l10"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/blank"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l1"
+        android:layout_alignTop="@+id/l10"
+        android:layout_alignLeft="@+id/l10"
+        android:layout_alignStart="@+id/l10" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l2"
+        android:layout_alignTop="@+id/l10"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l3"
+        android:layout_alignTop="@+id/l10"
+        android:layout_alignRight="@+id/l10"
+        android:layout_alignEnd="@+id/l10" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l4"
+        android:layout_below="@+id/l1"
+        android:layout_alignLeft="@+id/l10"
+        android:layout_alignStart="@+id/l10"
+        android:layout_marginTop="3dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l5"
+        android:layout_alignTop="@+id/l4"
+        android:layout_alignLeft="@+id/l2"
+        android:layout_alignStart="@+id/l2" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l6"
+        android:layout_alignTop="@+id/l5"
+        android:layout_alignRight="@+id/l10"
+        android:layout_alignEnd="@+id/l10" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l7"
+        android:layout_alignBottom="@+id/l10"
+        android:layout_alignLeft="@+id/l10"
+        android:layout_alignStart="@+id/l10" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l8"
+        android:layout_alignTop="@+id/l9"
+        android:layout_alignLeft="@+id/l5"
+        android:layout_alignStart="@+id/l5" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/l9"
+        android:layout_alignBottom="@+id/l10"
+        android:layout_alignRight="@+id/l10"
+        android:layout_alignEnd="@+id/l10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/btnNewGame"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="45dp"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:layout_below="@+id/l10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/t3"
+        android:textSize="60dp"
+        android:textColor="#f73131"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:layout_below="@+id/btnNewGame"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
