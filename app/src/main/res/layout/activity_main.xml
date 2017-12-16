@@ -1,75 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.mohitsingh9512gmail.tictactoe.MainActivity"
-    android:background="@drawable/bg">
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context="com.mohitsingh9512gmail.tictactoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:text="Tic"
+            android:textSize="85dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Tac"
+            android:textSize="85dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Toe"
+            android:textSize="85dp" />
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="One  Player"
-        android:id="@+id/onePlayerButton"
-        android:layout_marginBottom="174dp"
-        android:onClick="onClick"
-        android:textStyle="bold"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/transparent"
-        />
+    </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Two  Player"
-        android:id="@+id/twoPlayerButton"
-        android:onClick="onClick"
-        android:textStyle="bold"
-        android:textSize="@dimen/abc_dialog_padding_material"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/onePlayerButton"
-        android:layout_alignStart="@+id/onePlayerButton"
-        android:layout_marginBottom="81dp"
-        android:background="@android:color/transparent"
-        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tic"
-        android:id="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/transparent"
-        android:textSize="85dp"
-        />
+        <Button
+            android:id="@+id/onePlayerButton"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:text="One  Player"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tac"
-        android:id="@+id/textView2"
-        android:background="@android:color/transparent"
-        android:textSize="85dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        />
+        <Button
+            android:id="@+id/twoPlayerButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:onClick="onClick"
+            android:text="Two  Player"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Toe"
-        android:id="@+id/textView3"
-        android:background="@android:color/transparent"
-        android:textSize="85dp"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        />
+    </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

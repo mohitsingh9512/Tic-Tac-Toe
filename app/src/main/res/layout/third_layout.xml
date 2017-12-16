@@ -15,6 +15,7 @@
 
     <ImageView
         android:layout_width="80dp"
+        android:padding="10dp"
         android:layout_height="80dp"
         android:id="@+id/l1"
         android:layout_alignTop="@+id/l10"
@@ -25,12 +26,14 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:id="@+id/l2"
+        android:padding="10dp"
         android:layout_alignTop="@+id/l10"
         android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l3"
         android:layout_alignTop="@+id/l10"
         android:layout_alignRight="@+id/l10"
@@ -39,6 +42,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l4"
         android:layout_below="@+id/l1"
         android:layout_alignLeft="@+id/l10"
@@ -48,6 +52,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l5"
         android:layout_alignTop="@+id/l4"
         android:layout_alignLeft="@+id/l2"
@@ -56,6 +61,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l6"
         android:layout_alignTop="@+id/l5"
         android:layout_alignRight="@+id/l10"
@@ -64,6 +70,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l7"
         android:layout_alignBottom="@+id/l10"
         android:layout_alignLeft="@+id/l10"
@@ -72,6 +79,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l8"
         android:layout_alignTop="@+id/l9"
         android:layout_alignLeft="@+id/l5"
@@ -80,6 +88,7 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:padding="10dp"
         android:id="@+id/l9"
         android:layout_alignBottom="@+id/l10"
         android:layout_alignRight="@+id/l10"
